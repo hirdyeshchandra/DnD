@@ -14,6 +14,11 @@
            
           document.getElementById("a").innerHTML=mydata[0].dropzone;
           document.getElementById("c").innerHTML=mydata[1].dropzone;
+
+          /* 
+            these lines are just added for git testing
+          document.getElementById("a").innerHTML=mydata[0].dropzone;
+          document.getElementById("c").innerHTML=mydata[1].dropzone; */
         } 
         
         function allowDrop(evt) {
