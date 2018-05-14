@@ -1,0 +1,50 @@
+ h1{
+     
+      left: 650px;
+     position: relative;
+    }
+    
+    div#a {
+    display: inline-block; 
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    border: 10px solid blue;    
+    background-color: orchid; 
+      
+}
+    div#main{
+       left: 400px;
+    position: relative;  
+    }
+div#b {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    padding: 15px;
+    border: 10px solid blue;        
+    background-color:orchid; 
+   left: 800px;
+   position: sticky;
+}
+     div#c {
+    display:inline-block; 
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    border: 10px solid blue;    
+    background-color: orchid; 
+    /*left: 400px;
+    position: relative;*/
+}
+
+div#d {
+    display:inline-block;
+    width: 70px;
+    height: 70px;
+    padding: 15px;
+    border: 10px solid blue;        
+    background-color: orchid; 
+     left: 800px;
+    position: sticky;
+}

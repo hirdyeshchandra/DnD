@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<title> D&D</title>
+    <script type="text/javascript" src="data.json"></script>
+     <script type="text/javascript" src="dnd.js"></script>
+    <link rel="stylesheet" href="dndStyle.css">
+    
+    
+<body> 
+<h1>Drag & Drop</h1>
+<div id="main">
+<div id="a" ondrop="drop(event)"  ondragover="allowDrop(event)"></div> 
+<div id="b" draggable="false" ondragstart="dragObj(event)"></div> 
+    <br><p></p> <br>
+    
+<div id="c" ondrop="drop(event)"  ondragover="allowDrop(event)"></div>  
+<div id="d" draggable="false" ondragstart="dragObj(event)"></div> 
+    
+</div>
+</body>
+</html>
